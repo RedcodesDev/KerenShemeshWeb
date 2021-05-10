@@ -1,0 +1,124 @@
+/* Color Theme Swatches in Hex */
+.Keren-Shemesh-V1-1-hex {
+    color: #F49D01;
+}
+
+.Keren-Shemesh-V1-2-hex {
+    color: #AC7E00;
+}
+
+.Keren-Shemesh-V1-3-hex {
+    color: #F8B600;
+}
+
+.Keren-Shemesh-V1-4-hex {
+    color: #242424;
+}
+
+.Keren-Shemesh-V1-5-hex {
+    color: #F5F5F5;
+}
+
+/* Color Theme Swatches in RGBA */
+.Keren-Shemesh-V1-1-rgba {
+    color: rgba(244, 157, 1, 1);
+}
+
+.Keren-Shemesh-V1-2-rgba {
+    color: rgba(172, 126, 0, 1);
+}
+
+.Keren-Shemesh-V1-3-rgba {
+    color: rgba(248, 182, 0, 1);
+}
+
+.Keren-Shemesh-V1-4-rgba {
+    color: rgba(36, 36, 36, 1);
+}
+
+.Keren-Shemesh-V1-5-rgba {
+    color: rgba(245, 245, 245, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Keren-Shemesh-V1-1-hsla {
+    color: hsla(38, 99, 48, 1);
+}
+
+.Keren-Shemesh-V1-2-hsla {
+    color: hsla(43, 100, 33, 1);
+}
+
+.Keren-Shemesh-V1-3-hsla {
+    color: hsla(44, 100, 48, 1);
+}
+
+.Keren-Shemesh-V1-4-hsla {
+    color: hsla(0, 0, 14, 1);
+}
+
+.Keren-Shemesh-V1-5-hsla {
+    color: hsla(0, 0, 96, 1);
+}
+
+.header {
+    width: 100%;
+    height: 8%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+.headerstroke {
+    width: 100%;
+    height: 1%;
+    top: 9%;
+    left: 0%;
+    position: absolute;
+    background-color: #242424;
+}
+
+.headerimage {
+
+    height: 90%;
+    top: 5%;
+    left: 1%;
+    position: absolute;
+    width: auto;
+
+}
+
+.main {
+    width: 60%;
+    height: 100%;
+    top: 30%;
+    left: 25%;
+    background-color: gray;
+    position: absolute;
+}
+
+.navbar {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 30%;
+    left: 15%;
+    background-color: darkgray;
+
+}
+
+.navbartxt {
+    position: absolute;
+    max-width: 95%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.background {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 130%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
