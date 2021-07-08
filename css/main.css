@@ -1,1 +1,45 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
+.top {
+    margin-top: 0.5%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.border-top {
+
+    border-top: 5px solid black;
+
+}
+
+.border-left {
+
+    border-left: 5px solid black;
+}
+
+.border-right {
+
+    border-right: 5px solid black;
+
+}
+
+.border-bottom {
+
+    border-bottom: 5px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .remove-on-mobile {
+        display: none;
+    }
+
+    .center-on-mobile {
+        text-align: center;
+    }
+}
