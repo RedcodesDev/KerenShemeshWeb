@@ -1,4 +1,4 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
 .top {
     margin-top: 0.5%;
@@ -25,6 +25,19 @@
 
 }
 
+.button-color {
+
+    transition: color 0.2s ease-out, background-color 0.2s ease-out;
+
+}
+
+.button-color:hover {
+    background-color: #F08500;
+    color: white;
+    transition: color 0.2s ease-out, background-color 0.2s ease-out;
+
+}
+
 .border-bottom {
 
     border-bottom: 5px solid black;
@@ -34,12 +47,24 @@
     text-align: center;
 }
 
-@media (max-width: 767px) {
+.button-scaling.is-large {
+    font-size: 1.5vw;
+}
+
+@media (max-width: 1245px) {
     .remove-on-mobile {
         display: none;
     }
 
     .center-on-mobile {
         text-align: center;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .button-scaling-on-mobile.is-large {
+        font-size: 1.5rem;
     }
 }
