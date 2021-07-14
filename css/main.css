@@ -18,6 +18,10 @@ body {
 
 }
 
+.main-img {
+    border-radius: 10px;
+}
+
 .border-left {
 
     border-left: 5px solid black;
