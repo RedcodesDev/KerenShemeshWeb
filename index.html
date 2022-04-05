@@ -4,7 +4,7 @@
 
 <head>
     <!--Font Awesome Import -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
 
 
     <!-- CSS Stylesheet -->
@@ -64,11 +64,16 @@
     </div>
 
 
-    <div class="navbar tabs is-centered is-size-4">
+    <div class="navbar tabs is-centered is-size-5-mobile is-size-4">
         <ul>
-            <li><a>Leistungsangebot</a></li>
-            <li><a>Praxis</a></li>
-            <li><a>Kontakt</a></li>
+            <li><a>
+                    <span class="icon">
+                        <i class="fa-solid fa-person-chalkboard"></i></span>
+                    <span>Leistungsangebot</span></a></li>
+            <li><a><span class="icon"><i class="fa-solid fa-tree-city"></i></span><span>Praxis</span></a></li>
+            <li><a><span class="icon">
+                        <i class="fa-regular fa-id-card"></i></span>
+                    <span>Kontakt</span></a></li>
         </ul>
     </div>
 
@@ -90,7 +95,7 @@
 
                 <div class="column">
 
-                    <button class="button is-outlined is-large">
+                    <button class="button is-outlined is-large" onclick="location.href='/imprint'">
 
                         <span class="icon">
                             <i class="fas fa-file-signature"></i>
