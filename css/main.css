@@ -88,6 +88,13 @@ body {
     box-shadow: 10px 0 10px -10px #888;
 }
 
+.navbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    background-color: #f7f7f7;
+}
+
 @media (max-width: 1245px) {
     .remove-on-mobile {
         display: none;
