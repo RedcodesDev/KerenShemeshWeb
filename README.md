@@ -19,7 +19,7 @@ Die Beratung findet sowohl auf Deutsch als auch auf Russisch statt.
 <br>
 <br>
 <br>
-<a href="https://bulma.io">
+<a href="https://bulma.io" target="_blank">
   <img
     src="https://bulma.io/images/made-with-bulma.png"
     alt="Made with Bulma"
